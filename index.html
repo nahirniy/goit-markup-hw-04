@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>WebStudio</title>
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
@@ -59,9 +59,18 @@
             <section class="service">
                 <div class="container">
                     <h1 class="header-one">Effective Solutions for Your Business</h1>
-                    <button type="button" class="order-service-button">
+                    <button type="button" class="order-service-button" data-modal-open>
                         Order Service
                     </button>
+                    <div class="modal is-hidden" data-modal>
+                        <div class="modal-open">
+                            <button class="close-modal" data-modal-close>
+                                <svg class="icon-close">
+                                    <use xlink:href="./images/icons.svg#icon-close"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- section about our feature -->
@@ -70,6 +79,13 @@
                     <h2 class="visually-hidden">Feature</h2>
                     <ul class="list feature-list">
                         <li class="feature-item">
+                            <div class="box-icon-feature">
+                                <svg class="icon-feature">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-antenna"
+                                    ></use>
+                                </svg>
+                            </div>
                             <h3 class="header-three">Strategy</h3>
                             <p class="paragraph">
                                 Our goal is to identify the business problem to walk away
@@ -77,6 +93,13 @@
                             </p>
                         </li>
                         <li class="feature-item">
+                            <div class="box-icon-feature">
+                                <svg class="icon-feature">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-astronaut"
+                                    ></use>
+                                </svg>
+                            </div>
                             <h3 class="header-three">Punctuality</h3>
                             <p class="paragraph">
                                 Bring the key message to the brand's audience for the best
@@ -84,6 +107,11 @@
                             </p>
                         </li>
                         <li class="feature-item">
+                            <div class="box-icon-feature">
+                                <svg class="icon-feature">
+                                    <use xlink:href="./images/icons.svg#icon-clock"></use>
+                                </svg>
+                            </div>
                             <h3 class="header-three">Diligence</h3>
                             <p class="paragraph">
                                 Research and confirm brands that present the strongest
@@ -91,6 +119,13 @@
                             </p>
                         </li>
                         <li class="feature-item">
+                            <div class="box-icon-feature">
+                                <svg class="icon-feature">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-diagram"
+                                    ></use>
+                                </svg>
+                            </div>
                             <h3 class="header-three">Technologies</h3>
                             <p class="paragraph">
                                 Design practice focused on digital experiences. We bring
@@ -147,6 +182,44 @@
                             <div class="info-about-team">
                                 <h3 class="header-three h-team">Mark Guerrero</h3>
                                 <p class="paragraph p-team">Product Designer</p>
+                                <ul class="list team-contact-list">
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="team-member-item">
@@ -159,6 +232,44 @@
                             <div class="info-about-team">
                                 <h3 class="header-three h-team">Tom Ford</h3>
                                 <p class="paragraph p-team">Frontend Developer</p>
+                                <ul class="list team-contact-list">
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="team-member-item">
@@ -171,6 +282,44 @@
                             <div class="info-about-team">
                                 <h3 class="header-three h-team">Camila Garcia</h3>
                                 <p class="paragraph p-team">Marketing</p>
+                                <ul class="list team-contact-list">
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="team-member-item">
@@ -183,7 +332,103 @@
                             <div class="info-about-team">
                                 <h3 class="header-three h-team">Daniel Wilson</h3>
                                 <p class="paragraph p-team">UI Designer</p>
+                                <ul class="list team-contact-list">
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-contact-item">
+                                        <a href="" class="team-contact-link">
+                                            <svg class="icon-contact">
+                                                <use
+                                                    xlink:href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- section about our customers -->
+            <section class="section-customers">
+                <div class="container">
+                    <h2 class="header-two">Customers</h2>
+                    <ul class="list customers-list">
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use xlink:href="./images/icons.svg#icon-yaco"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-company-tagline"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-company"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-foster-peters"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use xlink:href="./images/icons.svg#icon-brand"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="customers-link">
+                                <svg class="icon-customers">
+                                    <use
+                                        xlink:href="./images/icons.svg#icon-company-tag-line"
+                                    ></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -201,5 +446,6 @@
                 </p>
             </div>
         </footer>
+        <script src="./js/modal.js"></script>
     </body>
 </html>

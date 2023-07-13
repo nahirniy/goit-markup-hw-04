@@ -502,6 +502,9 @@ img {
     background-color: var(--navyblue);
     padding: 100px 0;
 }
+.conclusion-box {
+    margin-right: 120px;
+}
 .logo-footer {
     color: var(--iris);
     font-size: 18px;
@@ -524,7 +527,6 @@ img {
     letter-spacing: 0.32px;
     color: var(--cloud);
     max-width: 264px;
-    margin-right: 120px;
 }
 .footer-box {
     display: flex;
